@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div id="headerSection">
+        <h1>Asset Tracker</h1>
+        <hr>
+    </div>
+    <div id="bodySection">
+        <h2>Register</h2>
+        <form action="PHP/register.php" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Enter name">
+        <label for="mobile">Mobile</label>
+        <input type="number"name="mobile" placeholder="Enter mobile">
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password">
+        <label for="cpassword">Confirm Password</label>
+        <input type="password" name="Cpassword" placeholder="Confirm Password">
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Email">
+    
+    <br><button type="submit"><i class="fa fa-check-square-o" aria-hidden="true"></i> Register</button>
+        Already Used <a href="log.html">Login here</a>
+    </form>
+</div>
+    
+    
+</body>
+</html>

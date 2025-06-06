@@ -1,0 +1,318 @@
+:root {
+    --white: #ffffff;
+    --blue: #183B4E;
+    --thick: #091057;
+    --hover-bg: #f0f0f0;
+    --hover-color: #183B4E;
+    --btn-bg: #ff4d4d;
+    --btn-color: #fff;
+    --btn-hover-bg: #cc0000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-nav {
+    padding: 15px 45px;
+    background-color: var(--white);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    margin: 0px;
+    
+    
+    
+}
+
+.navbar-header .navbar-brand {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--thick);
+    text-transform: capitalize;
+    display: inline-block;
+    
+}
+
+.brand-container {
+    display: flex;
+    align-items: left;
+}
+
+.brand-logo {
+    width: 80px;
+    margin-right: 10px;
+}
+.brand-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.user {
+    font-size: 14px;
+    color: #666;
+    margin-top: 2px;
+}
+
+.custom-nav .navbar-toggle {
+    border: none;
+    background: transparent;
+}
+
+.custom-nav .icon-bar {
+    background-color: var(--blue);
+}
+
+.custom-nav .navbar-nav > li > a {
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    color: var(--blue);
+    transition: all 0.3s ease;
+}
+
+.custom-nav .navbar-nav > li > a:hover {
+    background-color: var(--hover-bg);
+    color: var(--hover-color);
+    border-radius: 5px;
+}
+
+
+.custom-nav .btn.btn-dangert {
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+    padding: 8px 16px;
+    margin-left: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-nav .btn.btn-dangert:hover {
+    background-color: var(--btn-hover-bg);
+    color: var(--white);
+}
+
+.banner-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--thick);
+    padding: 50px 60px;
+    color: #fff;
+    gap: 40px;
+}
+
+.banner-top .left {
+    flex: 1 1 50%;
+    text-align: left;
+    
+}
+
+.banner-top .left h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.banner-top .left p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.banner-top .left .btn {
+    margin-right: 15px;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: var(--white);
+    color: var(--thick);
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.mb-4{
+    padding: 10px;
+}
+
+.banner-top .left .btn:hover {
+    background-color: var(--hover-bg);
+    color: var(--blue);
+}
+
+.banner-top .right {
+    flex: 1 1 40%;
+    text-align: center;
+    
+}
+
+.banner-top .right img {
+    width: 350px;
+    height: auto;
+    border-radius: 12px;
+}
+
+
+@media (max-width: 768px) {
+    .banner-top {
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .banner-top .left, .banner-top .right {
+        flex: 1 1 100%;
+    }
+
+    .banner-top .left {
+        text-align: center;
+    }
+}
+#chatbotBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    z-index: 1055;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+#chatbotBtn button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+#chatbotBtn button:hover {
+    transform: scale(1.05);
+}
+
+#chatbotBtn img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+.custom-product {
+    background-color: #f8f9fa;
+    padding: 60px 30px;
+}
+
+.custom-product .row > div {
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-product .row > div:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.custom-product p {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--blue);
+    margin-bottom: 15px;
+}
+
+.custom-product img {
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 20px 0;
+    color: var(--blue);
+}
+
+.banner-mid {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+.table-dark {
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table-dark th,
+.table-dark td {
+    text-align: center;
+    vertical-align: middle !important;
+    padding: 15px;
+}
+
+.custom-table thead tr th {
+    background-color: var(--thick);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.footer {
+    padding: 25px 20px;
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.footer h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #ccc;
+}
+
+.custom-table tr td div button{
+    background-color: var(--blue);
+}
+.custom-table .update a i{
+    margin-right: 12px;
+    
+}
+.custom-product{
+    padding: 20px;
+}
+.custom-product p{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 20px;
+}
+

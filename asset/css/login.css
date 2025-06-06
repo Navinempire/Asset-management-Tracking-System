@@ -1,0 +1,87 @@
+:root {
+    --primary-color: #183B4E;
+    --background-gradient: linear-gradient(135deg, #caf0f8, #ade8f4);
+    --form-bg: #ffffff;
+    --text-color: #023047;
+    --input-border-color: #90e0ef;
+}
+
+body {
+    background: var(--background-gradient);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 60px 0;
+    color: var(--text-color);
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+form {
+    background-color: var(--form-bg);
+    padding: 35px 45px;
+    border-radius: 14px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    max-width: 420px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid var(--input-border-color);
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+
+
+.checkbox {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    margin-top: 20px;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #005f87;
+}
+
+a {
+    display: inline-block;
+    margin-top: 18px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}

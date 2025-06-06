@@ -1,0 +1,87 @@
+:root {
+    --white: #ffffff;
+    --blue: #183B4E;
+    --thick: #1E3A8A;
+    --bg: #FFF8F0;
+    --text-dark: #374151;
+    --btn-hover: #2563EB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg);
+}
+
+h1 {
+    text-align: center;
+    color: var(--thick);
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.custom-row {
+    padding: 20px;
+    background-color: var(--white);
+    margin: 200px 320px;
+    text-align: left;
+}
+
+.custom-row div {
+    padding-bottom: 20px;
+}
+
+.body {
+    padding: 30px 40px;
+    background-color: var(--white);
+    color: var(--text-dark);
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.body form label {
+    color: var(--text-dark);
+    padding-right: 20px;
+    padding-left: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.body form input {
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #CBD5E1;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.body form input::placeholder {
+    text-transform: capitalize;
+    color: #9CA3AF;
+}
+
+.body form button {
+    width: 100px;
+    height: 40px;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 450px;
+}
+
+.body form button:hover {
+    background-color: var(--btn-hover);
+}
