@@ -15,7 +15,6 @@ error_reporting(1);
 <title>Asset Management & Traking</title>
 <link rel="stylesheet" type="text/css" href="asset/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="asset/css/all.min.css">
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
 <link rel="stylesheet" type="text/css" href="asset/css/style.css">
